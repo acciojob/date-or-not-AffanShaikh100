@@ -1,11 +1,7 @@
 var isDate = function (input) {
   //   write your code here
-	if(input == "new Date()" || input="new Date(year,month,day)"){
-		return true;
-	}
-	else{
-		return false;  
-	}
+	return isDate instanceof Date && isNaN(isDate);
+	    
 };   
  
 // Do not change the code below.
